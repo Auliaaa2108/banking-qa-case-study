@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "40ab751f-19e0-43b6-80c3-26ee2b8bf98b",
+		"name": "Banking_Transfer_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20188171"
+	},
+	"item": [
+		{
+			"name": "Transfer_Success",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"account_source\": \"123456789\",\r\n  \"account_destination\": \"987654321\",\r\n  \"amount\": 100000,\r\n  \"currency\": \"IDR\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.bank-mock.com/v1/transfer",
+					"protocol": "https",
+					"host": [
+						"api",
+						"bank-mock",
+						"com"
+					],
+					"path": [
+						"v1",
+						"transfer"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
