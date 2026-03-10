@@ -9,7 +9,7 @@ Folder ini berisi kumpulan collection Postman untuk pengujian API Transfer Dana.
 4. Pilih file `.json` yang telah diunduh.
 
 ## Detail Pengujian:
-- **Base URL:** `https://api.bank-mock.com/v1`
+- **Base URL:** `[https://api.bank-mock.com/v1](https://2f954d1b-8aea-4efa-9e31-118362ca6f6a.mock.pstmn.io)`
 - **Authentication:** Menggunakan `Bearer Token` (Header).
 - **Endpoint Utama:** `POST /transfer`
 - **Fokus Pengujian:** - Validasi respon 200 OK untuk transaksi berhasil.
